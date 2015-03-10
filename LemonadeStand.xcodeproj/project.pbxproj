@@ -13,6 +13,7 @@
 		FEAC53D31AAE80DF00E03D54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAC53D21AAE80DF00E03D54 /* Images.xcassets */; };
 		FEAC53D61AAE80DF00E03D54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEAC53D41AAE80DF00E03D54 /* LaunchScreen.xib */; };
 		FEAC53E21AAE80DF00E03D54 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAC53E11AAE80DF00E03D54 /* LemonadeStandTests.swift */; };
+		FEAC53EC1AAE89B400E03D54 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAC53EB1AAE89B400E03D54 /* Supplies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FEAC53DB1AAE80DF00E03D54 /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAC53E01AAE80DF00E03D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEAC53E11AAE80DF00E03D54 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		FEAC53EB1AAE89B400E03D54 /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				FEAC53CB1AAE80DF00E03D54 /* AppDelegate.swift */,
 				FEAC53CD1AAE80DF00E03D54 /* ViewController.swift */,
+				FEAC53EB1AAE89B400E03D54 /* Supplies.swift */,
 				FEAC53CF1AAE80DF00E03D54 /* Main.storyboard */,
 				FEAC53D21AAE80DF00E03D54 /* Images.xcassets */,
 				FEAC53D41AAE80DF00E03D54 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEAC53CE1AAE80DF00E03D54 /* ViewController.swift in Sources */,
+				FEAC53EC1AAE89B400E03D54 /* Supplies.swift in Sources */,
 				FEAC53CC1AAE80DF00E03D54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
