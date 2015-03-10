@@ -39,9 +39,28 @@ class ViewController: UIViewController {
     
     // IBActions
     @IBAction func purchaseLemonButtonPressed(sender: UIButton) {
+        if supplies.money >= price.lemon {
+            lemonsToPurchase += 1
+            supplies.money -= price.lemon
+            supplies.lemons += 1
+            
+            updateMainView()
+        } else {
+            showAlertWithText(message: "You don't have enough money")
+        }
     }
     
     @IBAction func purchaseIceCubeButtonPressed(sender: UIButton) {
+        if supplies.money >= price.iceCube {
+            iceCubesToPurchase += 1
+            supplies.money -= price.iceCube
+            supplies.iceCubes += 1
+            
+            updateMainView()
+        } else {
+            showAlertWithText(message: "You don't have enough money")
+        }
+
     }
     
     @IBAction func unpurchaseLemonButtonPressed(sender: UIButton) {
