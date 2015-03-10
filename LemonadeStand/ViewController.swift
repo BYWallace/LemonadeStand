@@ -64,5 +64,17 @@ class ViewController: UIViewController {
     @IBAction func startDayButtonPressed(sender: UIButton) {
     }
     
+    // Helper functions
+    
+    func updateMainView() {
+        moneySupplyCount.text = "$\(supplies.money)"
+        lemonSupplyCount.text = "\(supplies.lemons) Lemons"
+        iceCubeSupplyCount.text = "\(supplies.iceCubes) Ice Cubes"
+        
+        lemonPurchaseCount.text = "\(lemonsToPurchase)"
+        iceCubePurchaseCount.text = "\(iceCubesToPurchase)"
+        lemonMixCount.text = "\(lemonsToMix)"
+        iceCubeMixCount.text = "\(iceCubesToMix)"
+    }
 }
 
